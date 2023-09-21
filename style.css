@@ -104,6 +104,178 @@ header .navigation a:hover{
     background: #0C4F60;
 }
 
+.grid-container {
+    flex-wrap: wrap;
+    padding: 64px;
+}
+
+.grid-container h3{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.grid {
+    display:flex;
+    justify-content: space-around;
+    gap:32px;
+    flex-flow: row wrap;
+}
+
+
+
+.game {
+    max-width: 150px;
+    color: #1f293700;
+    transition:ease-in .7s;
+}
+
+.game:hover {
+    color: #f9faf8;
+}
+.game-content {
+    width:144px;
+    height:144px;
+    /* border: 3px solid #f7601b; */
+    background-image: url(logo.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    transition: ease 0.1s;
+}
+
+.game-content:hover {
+    transform:scale(1.05);
+}
+
+.art {
+    max-width: 150px;
+    color: #1f293700;
+    transition:ease-in .7s;
+}
+
+.art:hover {
+    color: #f9faf8;
+}
+.art-content {
+    width:144px;
+    height:144px;
+    /* border: 3px solid #f7601b; */
+    background-image: url(reyna.jpeg);
+    background-repeat: no-repeat;
+    background-size: 144px 144px;
+    border-radius: 20px;
+    transition: ease 0.1s;
+}
+
+.art-content:hover {
+    transform:scale(1.05);
+}
+
+.merch {
+    max-width: 150px;
+    color: #1f293700;
+    transition:ease-in .7s;
+}
+
+.merch:hover {
+    color: #f9faf8;
+}
+.merch-content {
+    width:144px;
+    height:144px;
+    /* border: 3px solid #f7601b; */
+    background-image: url(merch.jpg);
+    background-repeat: no-repeat;
+    background-size: 144px 144px;
+    border-radius: 20px;
+    transition: ease 0.1s;
+}
+
+.merch-content:hover {
+    transform:scale(1.05);
+}
+
+.figurines {
+    max-width: 150px;
+    color: #1f293700;
+    transition:ease-in .7s;
+}
+
+.figurines:hover {
+    color: #e1dfe9;
+}
+.figurines-content {
+    width:144px;
+    height:144px;
+    /* border: 3px solid #f7601b; */
+    background-image: url(figurines.jpeg);
+    background-size: cover;
+    border-radius: 20px;
+    transition: ease 0.1s;
+}
+
+.figurines-content:hover {
+    transform:scale(1.05);
+}
+
+.quote {
+    padding:80px 35%;
+    background: url(jett.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-size: 36px;
+    font-weight:lighter;
+    font-style:oblique;
+    color:#1F2937;
+    text-shadow: 0 0 5px #f9faf8,
+    0 0 15px #f9faf8,
+    0 0 30px #f9faf8;
+}
+
+.quote p{
+    mix-blend-mode: difference;
+}
+
+.author {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.sign-up-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:32px;
+    padding:36px;
+    background-color: transparent;
+    border-radius: 5px;
+    margin:100px auto;
+    color: #f4f4f8;
+    flex-flow: row wrap;
+    
+}
+
+.sign-up-section button {
+    border: 2px solid #f0f7f5;
+    font-style: italic;
+    font-weight: lighter;
+    mix-blend-mode:luminosity;
+}
+
+button:hover {
+    background-color: #f0edeb;
+    color: #3f3cf1;
+}
+
+.sign-up-section p {
+    margin:0px;
+    font-style: italic;
+    font-weight: lighter;
+    mix-blend-mode:luminosity;
+}
+
 .media-icons{
     display: flex;
     justify-content: center;
@@ -126,3 +298,4 @@ header .navigation a:hover{
 .media-icons a:hover{
     transform: scale(1.5);
 }
+
